@@ -1,0 +1,74 @@
+{
+    "welcome text": "Welcome to the react-i18next tutorial",
+    "heading":"Project Review",
+    "section1_col_1_paragraph": "IBankCare is a platform where you can manage your finances. What if you manage several credit cards that you have into the same account, of course it will be easier right? You can also view statistics on your daily, weekly or monthly expenditures. In fact, you can also make transactions with more than one user simultaneously, this will certainly shorten your time in making transactions with other users.",
+    "description": "Description",
+    "section1_col_2_heading": "Workflow",
+
+    "section1_col_2_edit_icon_tag": "Research",
+    "section1_col_2_user_icon_tag": "User Personas",
+    "section1_col_2_palette_icon_tag": "UI/UX Design",
+    
+    "section2_heading_line_1": "Why Create",
+    "section2_heading_line_2": "Case studies like this",
+    "section2_heading":"Why Make <br /> Case Studies like this one",
+    "section2_col_paragraph_1":"Mainly I started this case study based on my experience in making transactions, wouldn't it be easier if indeed we could manage several of our account cards into the same application or platform, it's just wishful thinking, we don't know the realization or the laws that cover it how.",
+    "section2_col_paragraph_2":"Apart from that, he also talked about sending money to several users. There is still a question in my mind, why doesn't our banking system implement a system of giving each user a unique name, so that later users don't have to enter long account numbers.",
+    "section2_col_paragraph_3":"However, maybe behind it all, the bank may have its own reasons, by not giving each user a unique name, so maybe the unique name or unique identity is the account number itself. Apart from that, currently in the money transfer process, we cannot directly simultaneously transfer the money to several other users. In my opinion, the feature of transferring to more than one user can greatly shorten the time, provided that the nominal amount mentioned must be the same.",
+    
+    
+    "section3_col_heading":"Problem",
+    "section3_col_list_item_1":"Less efficient in sending money to two or more users",
+    "section3_col_list_item_2":"Fund transfers still use the account number system",
+    "section3_col_list_item_3":"Statistical information on the use of account balances",
+    "section3_col_list_item_4":"Information on the use of account balances, whether sending money transfers or debit payments",
+
+     "section4_col_heading":"Solution",
+    "section4_col_list_item_1":"Create an interface for how users can send money or balances to other users",
+    "section4_col_list_item_2":"create a dashboard view of how the user manages his account when he has more than one account number",
+    "section4_col_list_item_3":"create an interface when a user wants to send money or a balance to more than one user",
+    
+    "section5_col_heading_p_1":"Revenue Models",
+    "section5_col_heading_p_2":"Profit",
+    "section5_col_list_item_1":"Admin fees sent when sending to different banks",
+    "section5_col_list_item_2":"The more people who integrate their accounts into this platform will increase the possibility of using this platform for the purpose of sending or other transactions",
+
+    "section6_heading":"User Personas",
+    "section6_paragraph_line_1":"To complete the case study, I try to create a perceived user persona or persona",
+    "section6_paragraph_line_2":"by users based on the characteristics of each user",
+    "section6_col_1_paragraph":"Tanjirou Kamadou is a person who has a business in the FnB field. At the end of each month, he distributes salaries to his employees manually, by sending the payday money to each of the employees' accounts. He wanted a solution so he could do the process efficiently",
+    "section6_col_2_row_1_heading":"Purpose",
+    "section6_col_2_row_1_item_1":"Facilitate business people in making transfers to many users",
+    "section6_col_2_row_1_item_2":"Simplify account management in the same platform",
+    "section6_col_2_row_1_item_3":"Provides statistical information on the use of balances or funds in accounts",
+    "section6_col_2_row_1_item_4":"Delivery is safe, because it is accompanied by validation of the intended user",
+
+    "section6_col_2_row_2_heading":"Frustrated",
+    "section6_col_2_row_2_item_1":"Too long if you have to send one by one to each user you want to transfer",
+    "section6_col_2_row_2_item_2":"Sending to other users still uses an account number, it will be easier if you use a username.",
+    "section6_col_2_row_2_item_3":"Absence of statistical features",
+    "section6_col_2_row_2_item_4":"Delivery is safe, because it is accompanied by validation of the intended user",
+
+    "section6_col_3_row_1_heading":"Influence",
+    "section6_col_3_row_1_item_1":"Business partners",
+    "section6_col_3_row_1_item_2":"Social Media",
+    "section6_col_3_row_1_item_3":"Online advertising",
+
+    "section6_col_3_row_2_heading":"Personality",
+    "section6_col_3_row_2_item_1":"Friendly",
+    "section6_col_3_row_2_item_2":"Thinker",
+    "section6_col_3_row_2_item_3":"Critical",
+    "section6_col_3_row_2_item_4":"Patience",
+
+    "section6_col_3_row_3_heading_p1":"Technology",
+    "section6_col_3_row_3_heading_p2":"Platforms",
+    "section6_col_3_row_3_item_1":"Website",
+    "section6_col_3_row_3_item_2":"Smartphone Application",
+
+
+    "section8_heading":"Other Pages",
+
+    "seaction9_heading":"Thank you for your attention",
+    "seaction9_paragraph_line_1":"Don't hesitate to give criticism and suggestions in the comments column, very happy",
+    "seaction9_paragraph_line_2":"when I found the design that I made received criticism and suggestions."
+}

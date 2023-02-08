@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='683' height='1026' viewBox='0 0 683 1026' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M179 37.0684C241.318 37.6544 261.102 21.1646 263.204 12.8465' stroke='%23848996' stroke-width='3' stroke-linecap='square' stroke-dasharray='7 7'/%3E%3Cpath d='M133.546 179C103.213 188.5 49.646 214.2 78.046 241C113.546 274.5 94.5459 339.5 252.546 358C410.546 376.5 443.046 333 497.046 358C540.246 378 568.046 432.667 576.546 457.5' stroke='%23848996' stroke-width='3' stroke-dasharray='7 7'/%3E%3Ccircle cx='125' cy='125' r='125' fill='%231397CF'/%3E%3Cpath d='M554 615.5C462.8 689.5 347.5 715.5 287.5 667C262 645.5 198.9 612.1 150.5 650.5C102.1 688.9 93.6668 761.5 95.5001 793' stroke='%23848996' stroke-width='3' stroke-dasharray='7 7'/%3E%3Ccircle r='125' transform='matrix(-1 0 0 1 558 513)' fill='%23298097'/%3E%3Ccircle cx='126' cy='901' r='125' fill='%231397CF'/%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.circle1-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='578' height='458' viewBox='0 0 578 458' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M179 37.0684C241.318 37.6544 261.102 21.1646 263.204 12.8465' stroke='%23848996' stroke-width='3' stroke-linecap='square' stroke-dasharray='7 7'/%3E%3Cpath d='M133.546 179C103.213 188.5 49.646 214.2 78.046 241C113.546 274.5 94.5459 339.5 252.546 358C410.546 376.5 443.046 333 497.046 358C540.246 378 568.046 432.667 576.546 457.5' stroke='%23848996' stroke-width='3' stroke-dasharray='7 7'/%3E%3Ccircle cx='125' cy='125' r='125' fill='%231397CF'/%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* marging-left: 200px; */
+  height: 500px;
+}
+
+
+
+@layer base {
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield !important;
+  }
+}
+
+/* Portrait tablets and small desktops */
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .bg-pattern {
+    background-image: none;
+  }
+  .login-card {
+    display: none !important;
+  }
+  .transfer-card {
+    display: none !important;
+  }
+  .security-card {
+    display: none !important;
+  }
+}
+
+@media (max-width: 367px) {
+  .forgot-pg-icon {
+    display: none;
+  }
+  
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .bg-pattern {
+    background-image: none;
+  }
+  .login-card {
+    display: none !important;
+  }
+  .transfer-card {
+    display: none !important;
+  }
+  .security-card {
+    display: none !important;
+  }
+}
+.slideFromRightToLeft {
+  display: block;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+}
+
+.slideFromLeftToRight {
+  display: block;
+  animation-name: moveInleft;
+  animation-duration: 1s;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

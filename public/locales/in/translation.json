@@ -1,0 +1,74 @@
+{
+    "welcome text": "Welcome Indonesian",
+    "heading": "Ulasan proyek",
+    "description": "Deskripsi",
+    "section1_col_1_paragraph": "IBankCare adalah platform tempat Anda dapat mengelola keuangan Anda. Bagaimana jika Anda mengelola beberapa kartu kredit yang Anda miliki ke dalam satu rekening yang sama, tentu akan lebih mudah bukan? Anda juga dapat melihat statistik pengeluaran harian, mingguan, atau bulanan Anda. Bahkan anda juga bisa melakukan transaksi dengan lebih dari satu user secara bersamaan, hal ini tentunya akan mempersingkat waktu anda dalam melakukan transaksi dengan user lainnya.",
+    "section1_col_2_heading": "Alur Kerja",
+    "section1_col_2_edit_icon_tag": "Riset",
+    "section1_col_2_user_icon_tag": "Persona Pengguna",
+    "section1_col_2_palette_icon_tag": "Desain UI/UX",
+
+    "section2_heading_line_1": "Mengapa Membuat",
+    "section2_heading_line_2": "Studi Kasus seperti ini",
+    "section2_col_paragraph_1":"Utamanya saya memulai studi kasus ini berdasarkan pengalaman saya dalam melakukan transaksi, bukankah lebih mudah jika memang kita bisa mengelola beberapa kartu rekening kita kedalam satu aplikasi atau platform yang sama, hanya sebatas angan-angan saja, kurang tau juga realisasi atau hukum-hukum yang menaunginya bagaimana.",
+    "section2_col_paragraph_2": "Selain itu juga berbicara mengenai pengiriman uang kepada beberapa user, Masih menjadi pertanyaan dibenak saya, kenapa sistem perbankan kita tidak menerapkan sistem pemberian nama unik tiap-tiap user, agar nantinya user tidak harus memasukkan nomor rekening yang begitu panjang.",
+    "section2_col_paragraph_3": "Akan tetapi mungkin dibalik itu semua, pihak bank mungkin memiliki alasan tersendiri, dengan tidak memberi nama unik tiap-tiap user, ya mungkin nama unik atau identitas unik itu ya nomor rekeningnya itu sendiri. Selain itu saat ini dalam proses transfer uang kita tidak bisa langsung serentak secara bersamaan mengtransfer uang tersebut ke beberapa user lainnya. Menurut saya dengan adanya fitur mengtransfer ke lebih dari satu user bisa sangat mempersingkat waktu, dengan catatan nominal yang disebut haruslah sama jumlahnya.",
+    
+    "section3_col_heading":"Masalah",
+    "section3_col_list_item_1":"Kurang efisien dalam mengirim uang ke dua user atau lebih",
+    "section3_col_list_item_2":"Pengiriman dana masih menggunakan sistem nomor rekening",
+    "section3_col_list_item_3":"Informasi statistik penggunaan saldo rekening",
+    "section3_col_list_item_4":"Informasi penggunaan saldo rekening baik itu pengiriman transfer uang maupun pembayaran debit",
+    
+    
+    "section4_col_heading":"Solusi",
+    "section4_col_list_item_1":"Membuat tampilan antarmuka bagaimana user mengirim uang atau balance ke user lainnya",
+    "section4_col_list_item_2":"membuat tampilan dashboard bagaimana user mengelola akun miliknya ketika memiliki lebih dari satu nomor rekening",
+    "section4_col_list_item_3":"membuat tampilan antarmuka ketika user ingin mengirim uang atau balance ke lebih dari satu user",
+
+
+    "section5_col_heading_p_1":"Model Pendapatan",
+    "section5_col_heading_p_2":"Keuntungan",
+    "section5_col_list_item_1":"Biaya admin yang dikirim ketika mengirim berbeda bank",
+    "section5_col_list_item_2":"Makin banyak orang yang mengintegrasikan rekening mereka kedalam platform ini akan meningkatkan kemungkinan pemakaian platform ini untuk tujuan pengiriman atau transaksi lainyya",
+
+    "section6_heading":"Persona Pengguna",
+    "section6_paragraph_line_1":"Untuk menyelesaikan studi kasus, saya mencoba untuk membuat user persona atau persona yang dirasaka",
+    "section6_paragraph_line_2":"oleh pengguna berdasarkan karakteristik tiap-tiap pengguna tersebut",
+    "section6_col_1_paragraph":"Tanjirou Kamadou adalah seorang yang memiliki bisnis di bidang FnB. Setiap akhir bulan ia melakukan pembagian gaji ke karyawannya secara manual, dengan cara mengirim uang gajian tersebut ke masing- masing rekening dari para pegawainya tersebut. Ia menginginkan sebuah solusi agar ia mampu melakukan proses tersebut secara efisien",
+    "section6_col_2_row_1_heading":"Tujuan",
+    "section6_col_2_row_1_item_1":"Memudahkan pelaku bisnis dalam melakukan transfer ke banyak user",
+    "section6_col_2_row_1_item_2":"Mempermudah pengelolaan rekening dalam satu platform yang sama",
+    "section6_col_2_row_1_item_3":"Menyediakan informasi statistik penggunaan saldo atau dana dalam rekening",
+    "section6_col_2_row_1_item_4":"Pengiriman aman, karena disertai dengan validasi user yang dituju",
+
+    "section6_col_2_row_2_heading":"Frustasi",
+    "section6_col_2_row_2_item_1":"Terlalu lama jika harus mengirim satu persatu ke tiap user yang ingin ditransfer",
+    "section6_col_2_row_2_item_2":"Pengiriman ke user lain masih memakai nomor rekening, akan lebih mudah jika memakai username.",
+    "section6_col_2_row_2_item_3":"Tidak adanya fitur statistik",
+    "section6_col_2_row_2_item_4":"Pengiriman aman, karena disertai dengan validasi user yang dituju",
+
+    "section6_col_3_row_1_heading":"Pengaruh",
+    "section6_col_3_row_1_item_1":"Rekanan bisnis",
+    "section6_col_3_row_1_item_2":"Social Media",
+    "section6_col_3_row_1_item_3":"Iklan online",
+
+    "section6_col_3_row_2_heading":"Kepribadian",
+    "section6_col_3_row_2_item_1":"Ramah",
+    "section6_col_3_row_2_item_2":"Pemikir",
+    "section6_col_3_row_2_item_3":"Kritis",
+    "section6_col_3_row_2_item_4":"Sabaran",
+
+    "section6_col_3_row_3_heading_p1":"Teknologi",
+    "section6_col_3_row_3_heading_p2":"Platform",
+    "section6_col_3_row_3_item_1":"Website",
+    "section6_col_3_row_3_item_2":"Aplikasi Smartphone",
+
+    "section8_heading":"Halaman Lainnya",
+    "seaction9_paragraph_line_1":"Tak usah sungkan untuk memberi kritik dan saran pada kolom komentar, sangat senang",
+    "seaction9_paragraph_line_2":"ketika mendapati desain yang saya buat mendapat kritik dan saran.",
+
+    "seaction9_heading":"Terima Kasih Atas Perhatiannya",
+    "":""
+
+}
