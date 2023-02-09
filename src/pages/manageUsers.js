@@ -15,7 +15,6 @@ const ManageUsers = () => {
   const theme = useSelector((state) => state.themes.theme);
 
   const reduxUsers = useSelector((state) => state.users.users);
-  const [activeMenu, setActiveMenu] = useState(false); // managing profile dropdown menu of table
 
   const [sortBy, setSortBy] = useState("");
   const [isFilterClicked, setIsFilterClicked] = useState(false);
@@ -52,8 +51,6 @@ const ManageUsers = () => {
           subHeading="Manage and organize your users"
           headingClass={`${theme==='light'?"text-heading-color": "text-white"} text-[20px] font-semibold mt-[37px] ml-[36px]`}
           subHeadingClass="mt-[8px] ml-[36px] text-tcolor text-[14px] font-normal"
-          setActiveMenu={setActiveMenu}
-          activeMenu={activeMenu}
         />
       </div>
 
