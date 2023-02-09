@@ -25,18 +25,8 @@ export default function LanguageSelector(props) {
   function handleLanguageChange(language) {
     dispatch(setLocalLanguage(language));
     i18n.changeLanguage(language);
-    if (language === "in") {
-      if (!(location.pathname).includes(`/in/`)) {
-        const path = `/in${location.pathname}`;
-        navigate(path);
-      } else {
-        const path = `${location.pathname}`;
-        navigate(path);
-      }
-    } else {
-      const path = `${location.pathname.replace("/in", "")}`;
-      navigate(path);
-    }
+    const path = `${location.pathname}`;
+    navigate(path);
     setIsOpen(false);
   }
 
@@ -56,10 +46,17 @@ export default function LanguageSelector(props) {
         <span className="rounded-md shadow-sm">
           <button
             type="button"
-            className={`${props.theme==='light'?"bg-yellow active:bg-yellow-light":"bg-gray-700"} active:text-gray-100 inline-flex justify-center items-center w-[180px] rounded-md border border-gray-300 px-4 py-2 text-sm leading-5 font-medium text-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue  `}
+            className={`${
+              props.theme === "light"
+                ? "bg-yellow active:bg-yellow-light"
+                : "bg-gray-700"
+            } active:text-gray-100 inline-flex justify-center items-center w-[180px] rounded-md border border-gray-300 px-4 py-2 text-sm leading-5 font-medium text-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue  `}
             onClick={() => setIsOpen(!isOpen)}
           >
-            <img src={require(`../assets/images/${langRedux}.png`)} className="w-5 h-5" />
+            <img
+              src={require(`../assets/images/${langRedux}.png`)}
+              className="w-5 h-5"
+            />
 
             <span className="ml-3 mr-5"> {languages[langRedux]} </span>
             <span className="">
@@ -84,7 +81,10 @@ export default function LanguageSelector(props) {
                 }}
               >
                 <span>
-                  <img src={require(`../assets/images/${key}.png`)} className="w-10 h-10" />
+                  <img
+                    src={require(`../assets/images/${key}.png`)}
+                    className="w-10 h-10"
+                  />
                 </span>
                 <span className="align-middle ml-5 font-medium">
                   {languages[key]}

@@ -166,7 +166,7 @@ const TransferUsers = () => {
           >
 
             <div className="px-[32px]">
-              <h1 className="text[24px] text-table-header-color  font-semibold  ml-[4px]  pt-[50px]">
+              <h1 className={`${theme==='light'?"text-table-header-color": "text-white"} text[24px] font-semibold  ml-[4px]  pt-[50px]`}>
                 Selected Users
               </h1>
               <p className="text-[14px] text-label-text-color mt-[6px] ml-[4px]">
@@ -219,7 +219,7 @@ const TransferUsers = () => {
             outerDivClassName="mx-[36px] my-[36px] lg:mx-[0px] lg:mr-[36px] "
           >
             <div className="px-[32px]">
-              <h1 className="text[24px] text-table-header-color  font-semibold  ml-[4px]  pt-[50px]">
+              <h1 className={`${theme==='light'?"text-table-header-color": "text-white"} text[24px] font-semibold  ml-[4px]  pt-[50px]`}>
                 Input Amount
               </h1>
               <p className="text-[14px] text-label-text-color font-normal mt-[6px] ml-[4px] mb-[27px]">

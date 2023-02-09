@@ -23,7 +23,7 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
             className="text-sm font-bold leading-relaxed inline-block pl-4 mr-4 py-2 whitespace-nowrap uppercase text-white"
             to={`/`}
           >
-            IBack Care
+            IBank Care
           </Link>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

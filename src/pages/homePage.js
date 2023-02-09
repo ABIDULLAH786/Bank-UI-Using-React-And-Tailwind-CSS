@@ -241,7 +241,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[67px] ">
             {/* col-1 */}
             <Card
-              className="bg-gray-700 rounded-[22px] "
+              className={`${theme!=="light"?"bg-gray-700":'bg-[#F9FBFD]'} rounded-[22px] `}
               outerDivClassName=" md:mr-[27px] mt-[20px] md:mt-0 md:mr-0"
             >
               <div>
@@ -253,11 +253,11 @@ const Home = () => {
                 </h1>
               </div>
               <div className="flex justify-center item-center mt-[26px]">
-                <div className=" bg-[#E3F5FF] border-2 rounded-[22px] border-[#E3F5FF] px-[25px] py-[20px]">
-                  <p className="text-[12px] text-[#626262]">Age : 35</p>
-                  <p className="text-[12px] text-[#626262]">Status : Single</p>
-                  <p className="text-[12px] text-[#626262]">Job : Wiraswasta</p>
-                  <p className="text-[12px] text-[#626262]">Location : Ohayo</p>
+                <div className={`${theme!=="light"?`bg-gray-600 border-[#EFFFFF] ${paraTextColor}`:'bg-[#E3F5FF] text-[#626262]'}  border-2   rounded-[22px]  px-[25px] py-[20px]`}>
+                  <p className="text-[12px] ">Age : 35</p>
+                  <p className="text-[12px] ">Status : Single</p>
+                  <p className="text-[12px]">Job : Wiraswasta</p>
+                  <p className="text-[12px] ">Location : Ohayo</p>
                 </div>
               </div>
 
@@ -269,11 +269,11 @@ const Home = () => {
             </Card>
             {/* col-2 */}
             <Card
-              className=""
+              className={``}
               outerDivClassName="md:ml-[27px]  mt-[20px] md:mt-0 md:mr-0"
             >
               {/* Row-1 */}
-              <div className="bg-gray-700 rounded-[22px]">
+              <div className={`${theme!=="light"?"bg-gray-700":'bg-[#F7FCFE]'} bg-gray-700 rounded-[22px]`}>
                 <h1 className={`${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px]`}>
                   {t("section6_col_2_row_1_heading")}
                 </h1>
@@ -285,8 +285,8 @@ const Home = () => {
                 </ul>
               </div>
               {/* col2 row-2 */}
-              <div className="bg-gray-700 rounded-[22px] mt-[25px]">
-                <h1 className={`${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px] `}>
+              <div className={`${theme!=="light"?"bg-gray-700":'bg-[#FFFAFA]'} bg-gray-700 rounded-[22px] mt-[25px]`}>
+                <h1 className={`${theme!=="light"?"bg-gray-700":'text-white'} ${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px] `}>
                   {t("section6_col_2_row_2_heading")}
                 </h1>
                 <ul className={`${paraTextColor} list-disc text-[12px] font-normal pl-[30px] pr-[22px] pb-[12px] mt-[15px]`}>
@@ -303,11 +303,11 @@ const Home = () => {
               outerDivClassName="md:ml-[27px]  mt-[20px] md:mt-0 "
             >
               {/* col3 row 1 */}
-              <div className={`bg-gray-700 rounded-[22px]`}>
-                <h1 className={`${headingTextColor} text-[14px] text-[#474747] font-semibold ml-[14px] pt-[21px]`}>
+              <div className={`${theme!=="light"?"bg-gray-700":'bg-[#F7FFF7]'} rounded-[22px]`}>
+                <h1 className={`${theme!=="light"&&"text-[#474747]"} ${headingTextColor} text-[14px] text-[#474747] font-semibold ml-[14px] pt-[21px]`}>
                   {t("section6_col_3_row_1_heading")}
                 </h1>
-                <ul className={`${paraTextColor} list-disc text-[#626262] text-[12px] font-normal pl-[30px] pr-[22px] pb-[12px] mt-[15px]`}>
+                <ul className={`${paraTextColor} list-disc  text-[12px] font-normal pl-[30px] pr-[22px] pb-[12px] mt-[15px]`}>
                   <li>{t("section6_col_3_row_1_item_1")}</li>
                   <li className="my-[12px]">
                     {t("section6_col_3_row_1_item_2")}
@@ -317,8 +317,8 @@ const Home = () => {
               </div>
 
               {/* col3 row-2 */}
-              <div className={`bg-gray-700 rounded-[22px] mt-[25px]`}>
-                <h1 className={`${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px]`}>
+              <div className={`${theme!=="light"?"bg-gray-700":'bg-[#FFFDF7]'}  rounded-[22px] mt-[25px]`}>
+                <h1 className={`${theme!=="light"&&"text-[#474747]"} ${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px]`}>
                   {t("section6_col_3_row_2_heading")}
                 </h1>
                 <ul className={`${paraTextColor} list-disc text-[12px] font-normal pl-[30px] pr-[22px] pb-[12px] mt-[15px]`}>
@@ -334,8 +334,8 @@ const Home = () => {
               </div>
 
               {/* col3 row-3 */}
-              <div className="bg-gray-700 rounded-[22px] mt-[25px]">
-                <h1 className={`${headingTextColor} text-[14px] text-[#474747] font-semibold ml-[14px] pt-[21px]`}>
+              <div className={`${theme!=="light"?"bg-gray-700":'bg-[#FDF9FD]'}  rounded-[22px] mt-[25px]`}>
+                <h1 className={`${theme!=="light"&&"text-[#474747]"}  ${headingTextColor} text-[14px] font-semibold ml-[14px] pt-[21px]`}>
                   {t("section6_col_3_row_3_heading_p1")} /{" "}
                   {t("section6_col_3_row_3_heading_p2")}
                 </h1>

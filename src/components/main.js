@@ -4,13 +4,11 @@ import {
   HelpIcon,
   HistoryIcon,
   HomeIcon,
-  HrIcon,
-  InboxIcon,
-  LogoDollarIcon,
+  HrIcon, LogoDollarIcon,
   LogoIcon,
   LogOutIcon,
   ManageUserIcon,
-  TransferIcon,
+  TransferIcon
 } from "../assets/icons";
 import MenuItemCard from "../themes/menuItemCard";
 import { RiMenuFoldLine } from "react-icons/ri";
@@ -40,12 +38,6 @@ const MenuGeneralItems = [
     icon: HistoryIcon,
     path: "/dashboard/history",
     className: "flex items-center  mb-[33px] font-semibold group",
-  },
-  {
-    text: "Inbox",
-    icon: InboxIcon,
-    path: "/dashboard/inbox",
-    className: "flex items-center   font-semibold group",
   },
 ];
 
