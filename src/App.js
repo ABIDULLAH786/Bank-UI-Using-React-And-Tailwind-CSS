@@ -25,7 +25,7 @@ function App() {
     <>
       <Routes >
         <Route element={<PageLayout />}>
-          <Route path={lng === `in` ? `in/` : `/`} element={<Home />} />
+          <Route path={`/`} element={<Home />} />
 
           <Route path="/dashboard" element={<ProtectedRoute />}>
             <Route path="/dashboard" element={<Main />}>
@@ -39,13 +39,13 @@ function App() {
             </Route>
           </Route>
 
-          <Route path={lng === `in` ? `in/forgot_password` : `/forgot_password`} element={<ForgotPassword />} />
+          <Route path={`/forgot_password`} element={<ForgotPassword />} />
           <Route
-            path={lng === `in` ? `in/reset_password` : `/reset_password`}
+            path={`/reset_password`}
             element={<ResetPassword />}
           />
           <Route
-            path={lng === `in` ? `in/login_admin` : `/login_admin`}
+            path={`/login_admin`}
             element={<Login />}
           />
         </Route>

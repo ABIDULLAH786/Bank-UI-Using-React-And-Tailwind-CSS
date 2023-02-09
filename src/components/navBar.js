@@ -12,12 +12,16 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
   const theme = useSelector((state) => state.themes.theme);
   return (
     // className="xsm:bg-green-700 sm:bg-green-400 md:bg-green-100 lg:bg-red-300 xl:bg-red-500 2xl:bg-red-900"
-    <div className={`${theme==='light'?"bg-yellow":"bg-gray-900"} fixed w-full z-50`}>
+    <div
+      className={`${
+        theme === "light" ? "bg-yellow" : "bg-gray-900"
+      } fixed w-full z-50`}
+    >
       <nav className="  flex  items-center justify-between py-3 ">
         <div className="w-full  flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link
             className="text-sm font-bold leading-relaxed inline-block pl-4 mr-4 py-2 whitespace-nowrap uppercase text-white"
-            to={lng === `in` ? `in/` : `/`}
+            to={`/`}
           >
             IBack Care
           </Link>
@@ -33,7 +37,9 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
           className={
             "lg:flex flex-grow items-center" +
             (navbarOpen
-              ? (theme==='light'?"left-[-63px] bg-yellow-light absolute w-full top-[63px]":"left-[-63px] bg-gray-900 absolute w-full top-[63px]")
+              ? theme === "light"
+                ? "left-[-63px] bg-yellow-light absolute w-full top-[63px]"
+                : "left-[-63px] bg-gray-900 absolute w-full top-[63px]"
               : " hidden")
           }
           id="example-navbar-danger"
@@ -44,7 +50,7 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
                 <li>
                   <Link
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    to={lng === "in" ? "/in/login_admin" : "/login_admin"}
+                    to={"/login_admin"}
                   >
                     Login
                   </Link>
@@ -52,7 +58,7 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
                 <li>
                   <Link
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    to={lng === "in" ? "/in/reset_password" : "/reset_password"}
+                    to={"/reset_password"}
                   >
                     Reset Password
                   </Link>
@@ -60,9 +66,7 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
                 <li>
                   <Link
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    to={
-                      lng === "in" ? "/in/forgot_password" : "/forgot_password"
-                    }
+                    to={"/forgot_password"}
                   >
                     Forgot Password
                   </Link>
@@ -72,14 +76,13 @@ export default function Navbar({ selectedTheme, setSeletedTheme }) {
                 </li>
               </>
             )}
-            <li className={`${navbarOpen&&"my-3"}`}>
+            <li className={`${navbarOpen && "my-3"}`}>
               <button
                 type="button"
                 className={`${
                   theme === "dark" ? "bg-gray-700" : "bg-white"
                 } w-9 h-9 inline-flex justify-center items-center mr-[10px] rounded-md border border-gray-300  text-sm leading-5 font-medium text-white `}
                 onClick={() => {
-                  
                   if (theme === "dark") {
                     dispatch(changeTheme("light"));
                   } else {
