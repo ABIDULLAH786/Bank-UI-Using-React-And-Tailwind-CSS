@@ -15,10 +15,8 @@ import PageNotFound from "./pages/pageNotFound";
 import PageLayout from "./components/layout";
 import Modal from "./themes/modal";
 import ProtectedRoute from "./components/protectedRoute";
-import { useSelector } from "react-redux";
 
 function App() {
-  const lng = useSelector((state) => state.languages.language);
 
 
   return (

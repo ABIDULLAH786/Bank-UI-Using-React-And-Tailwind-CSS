@@ -32,7 +32,7 @@ const TopSection = (props) => {
           className="ml-[-15px] mr-[36px]"
           onClick={() => setActiveMenu(true)}
         >
-          <img src="/images/user avatart.png" />
+          <img src="/images/user avatart.png" alt="user avatar" />
         </span>
         {activeMenu && (
           <nav 
