@@ -5,7 +5,7 @@ import { DarkModeIcon, LightModeIcon, NavIcon } from "../assets/icons";
 import { changeTheme } from "../redux/actions/themeActions";
 import LanguageSelector from "./languageSelector";
 
-export default function Navbar({ selectedTheme, setSeletedTheme }) {
+export default function Navbar() {
   const lng = useSelector((state) => state.languages.language);
   const [navbarOpen, setNavbarOpen] = useState(false);
   const dispatch = useDispatch();

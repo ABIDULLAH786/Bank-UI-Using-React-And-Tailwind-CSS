@@ -53,10 +53,10 @@ export default function LanguageSelector(props) {
             } active:text-gray-100 inline-flex justify-center items-center w-[180px] rounded-md border border-gray-300 px-4 py-2 text-sm leading-5 font-medium text-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue  `}
             onClick={() => setIsOpen(!isOpen)}
           >
-            <img
+            {/* <img
               src={require(`../assets/images/${langRedux}.png`)}
               className="w-5 h-5"
-            />
+            /> */}
 
             <span className="ml-3 mr-5"> {languages[langRedux]} </span>
             <span className="">
