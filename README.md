@@ -1,3 +1,23 @@
+
+# Bank UI (React + Tailwindcss + i18next)
+
+Demo: https://bank-app-ui-demo.vercel.app/
+
+Repo: https://github.com/ABIDULLAH786/Bank-UI-Using-React-And-Tailwind-CSS
+
+
+![image](https://github.com/user-attachments/assets/8906cd3f-ff36-48c7-8d8c-9add86cc11c7)
+
+![image](https://github.com/user-attachments/assets/a078b16c-8701-4ef9-bdd2-cef041af546d)
+
+![image](https://github.com/user-attachments/assets/49221250-bb6b-4713-91fa-96e76b1ca6c5)
+
+![image](https://github.com/user-attachments/assets/15ee0446-e20c-46e5-bfda-53fb90f16451)
+
+![image](https://github.com/user-attachments/assets/a9983f60-163e-4924-87d9-22ebef105650)
+
+---------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
